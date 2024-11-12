@@ -1,0 +1,102 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #f8e9a1;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+body {
+  background-color: #a8d0e6;
+}
+
+.links {
+  padding: 5px;
+  text-align: end;
+}
+
+.header {
+  background-color: #374785;
+  border-radius: 5px;
+  border: 1px solid black;
+
+  text-align: center;
+  color: #feffff;
+
+  padding: 15px;
+  margin: 50px;
+}
+
+.lifee {
+  width: auto;
+  margin: auto;
+}
+
+.awardss {
+  width: auto;
+  margin: auto;
+}
+
+.content {
+  background-color: #374785;
+  border-radius: 5px;
+  border: 1px solid black;
+
+  text-align: left;
+  color: #feffff;
+
+  padding: 20px;
+  margin: 5px 50px 5px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.biography {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.image {
+  margin-right: 10px;
+}
+
+.career {
+  background-color: #374785;
+  border-radius: 5px;
+  border: 1px solid black;
+
+  color: #feffff;
+
+  margin: 5px 50px 5px;
+  padding: 20px;
+
+  font-size: 20px;
+}
+
+table,
+th,
+td {
+  border: 1.5px solid #feffff;
+  border-collapse: collapse;
+  padding: 8px;
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.footer {
+  background-color: #24305e;
+  color: feffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px 50px 5px 50px;
+  padding: 20px;
+}
