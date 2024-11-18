@@ -19,7 +19,7 @@ nav ul li {
 }
 
 nav a {
-    color: #ddd;
+    color: white;
     text-decoration: none;
 }
 
@@ -27,7 +27,7 @@ nav a {
     font-weight: bold;
     text-decoration: none;
     font-size: 25px;
-    color: #ddd;
+    color: white;
 }
 
 main {
@@ -38,15 +38,42 @@ img {
     width: 100%;
 }
 
+main div {
+    margin: 10px 0px 10px 0px; 
+}
+
 .winery {
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: 20px;
     padding: 20px;
 }
 
+.winery a {
+    color: #722F37;
+    text-decoration: none;
+}
+
+.container-products {
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.products {
+    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 7px;
+}
 
 footer {
-    margin-bottom: 0px;
+    background-color: #722F37;
+    padding: 20px;
 }
 
 footer ul {
@@ -64,9 +91,4 @@ footer a {
     color: #ddd;
     text-decoration: none;
     font-size: 13px;
-}
-
-.contacts {
-    background-color: #722F37;
-    padding: 20px;
 }
