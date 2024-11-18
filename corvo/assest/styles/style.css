@@ -1,115 +1,115 @@
 header {
-    background-color: #722F37;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    height: auto;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
+  background-color: #722f37;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 nav ul li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .logo {
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
 }
 
 main {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 main div {
-    margin: 10px 0px 10px 0px; 
+  margin: 10px 0px 10px 0px;
 }
 
 .winery {
-    border: 2px solid #ddd;
-    border-radius: 20px;
-    padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .winery a {
-    color: #722F37;
-    text-decoration: none;
+  color: #722f37;
+  text-decoration: none;
 }
 
 .container-products {
-    border: 2px solid #ddd;
-    border-radius: 20px;
-    padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
 }
 
-.products {   
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 10px;
+.products {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
 }
 
 @media (max-width: 1200px) {
-    .products {
-        grid-template-columns: repeat(4, 1fr); 
-    }
+  .products {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media (max-width: 900px) {
-    .products {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
-    .products {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 400px) {
-    .products {
-        grid-template-columns: 1fr; 
-    }
+  .products {
+    grid-template-columns: 1fr;
+  }
 }
+
 .product-item {
-    border: 1px solid #ddd;
-    padding: 7px;
+  border: 1px solid #ddd;
+  padding: 7px;
 }
 
 footer {
-    background-color: #722F37;
-    padding: 20px;
+  background-color: #722f37;
+  padding: 20px;
 }
 
 footer ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
 }
 
 footer ul li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
-
 footer a {
-    color: #ddd;
-    text-decoration: none;
-    font-size: 13px;
+  color: #ddd;
+  text-decoration: none;
+  font-size: 13px;
 }
