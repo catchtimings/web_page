@@ -1,9 +1,12 @@
 header {
-    background-color: #006E90;
+    background-color: #722F37;
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    height: 20%;
+    height: auto;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 nav ul {
@@ -18,7 +21,6 @@ nav ul li {
 nav a {
     color: #ddd;
     text-decoration: none;
-    font-weight: 400;
 }
 
 .logo {
@@ -28,6 +30,43 @@ nav a {
     color: #ddd;
 }
 
+main {
+    padding-top: 100px;
+}
+
 img {
     width: 100%;
+}
+
+.winery {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+footer {
+    margin-bottom: 0px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.contacts {
+    background-color: #722F37;
+    padding: 20px;
 }

@@ -7,7 +7,7 @@
     />
     <link rel="stylesheet" href="assest/styles/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <header>
@@ -24,7 +24,19 @@
     <main>
       <div class="container-fluid">
         <div class="winery" id="winery-section">
-          <div class="carousel" id="winery-carousel">
+          <div class="info">
+            <h1>О винодельне Корво Бьянко</h1>
+            <p>
+              Построенная на эльфских руинах, одна из самых старых виноделен в
+              княжестве, называвшаяся в Старшей Речи «Гвин Кербин». Именно здесь
+              рождается чрезвычайно оригинальное вино Сепременто.
+            </p>
+          </div>
+          <div
+            class="carousel slide"
+            data-bs-ride="carousel"
+            id="winery-carousel"
+          >
             <div class="carousel-indicators">
               <button
                 type="button"
@@ -42,44 +54,44 @@
                 data-bs-target="#winery-carousel"
                 data-bs-slide-to="2"
               ></button>
-              <button
-                type="button"
-                data-bs-target="#winery-carousel"
-                data-bs-slide-to="3"
-              ></button>
             </div>
 
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assest/images/corvo-bianco.jpg" class="img-fluid">
-                </div>
-                <div class="carousel-item">
-                    <img src="assest/images/corvo-bianco-1.jpg" class="img-fluid">
-                </div>
-                <div class="carousel-item">
-                    <img src="assest/images/corvo-bianco-2.jpg" class="img-fluid">
-                </div>
-                <div class="carousel-item">
-                    <img src="assest/images/corvo-bianco-3.jpg" class="img-fluid">
-                </div>
+              <div class="carousel-item active">
+                <img src="assest/images/corvo-bianco.jpg" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assest/images/corvo-bianco-1.jpg" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assest/images/corvo-bianco-2.jpg" class="img-fluid" />
+              </div>
             </div>
           </div>
 
-          <button class="carousel-control-prev" type="button" data-bs-target="#winery-carousel" data-bs-slide="prev">
+          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#winery-carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#winery-carousel" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
-          </button>
+          </button> -->
         </div>
-
-
-
-
-
-
-
       </div>
     </main>
+
+    <footer>
+      <div class="container-fluid contacts" id="contacts-section">
+        <ul>
+          <li>
+            <a href="https://witcher3map.com/t/#6/87.141/64.430/w=86.906,63.484"
+              >Мы на карте</a
+            >
+          </li>
+          <li><a href="#">Отзывы</a></li>
+          <li><a href="#">Лицензия</a></li>
+          <li><a href="#">Связь с нами</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
