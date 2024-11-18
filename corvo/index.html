@@ -36,50 +36,8 @@
               >Больше о винодельне</a
             >
           </div>
-          <div
-            class="carousel slide"
-            data-bs-ride="carousel"
-            id="winery-carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#winery-carousel"
-                data-bs-slide-to="0"
-                class="active"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#winery-carousel"
-                data-bs-slide-to="1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#winery-carousel"
-                data-bs-slide-to="2"
-              ></button>
-            </div>
-
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assest/images/corvo-bianco.jpg" class="img-fluid" />
-              </div>
-              <div class="carousel-item">
-                <img src="assest/images/corvo-bianco-1.jpg" class="img-fluid" />
-              </div>
-              <div class="carousel-item">
-                <img src="assest/images/corvo-bianco-2.jpg" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-
-          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#winery-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#winery-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </button> -->
         </div>
+
         <div class="container-products">
           <h1>Коллекция вина</h1>
           <div class="products" id="products-section">
@@ -90,44 +48,79 @@
               />
               <div class="card-body">
                 <h4 class="card-title">Белое вино из Боклера</h4>
-                <a href="#" class="btn btn-danger ">Подробнее</a>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal1"
+                >
+                  Подробнее
+                </button>
               </div>
             </div>
-            <div class="card ">
+            <div class="card">
               <img
                 src="assest/images/wine/butcher-from-blaviken.png"
                 class="img-fluid"
               />
               <div class="card-body">
                 <h4 class="card-title">Мясник из Блавикена</h4>
-                <a href="#" class="btn btn-danger">Подробнее</a>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal2"
+                >
+                  Подробнее
+                </button>
               </div>
             </div>
-            <div class="card ">
+            <div class="card">
               <img src="assest/images/wine/pino-blan.png" class="img-fluid" />
               <div class="card-body">
                 <h4 class="card-title">Пино Блан Резерв Кавлер Д'Адам</h4>
-                <a href="#" class="btn btn-danger">Подробнее</a>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal3"
+                >
+                  Подробнее
+                </button>
               </div>
             </div>
-            <div class="card ">
+            <div class="card">
               <img
                 src="assest/images/wine/caberne-shato.png"
                 class="img-fluid"
               />
               <div class="card-body">
                 <h4 class="card-title">Каберне Шато Де Конрад</h4>
-                <a href="#" class="btn btn-danger">Подробнее</a>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal4"
+                >
+                  Подробнее
+                </button>
               </div>
             </div>
-            <div class="card ">
+            <div class="card">
               <img
                 src="assest/images/wine/shato-mon-valgane.png"
                 class="img-fluid"
               />
               <div class="card-body">
                 <h4 class="card-title">Шато Мон-Вальжан</h4>
-                <a href="#" class="btn btn-danger">Подробнее</a>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal5"
+                >
+                  Подробнее
+                </button>
               </div>
             </div>
             <div class="card">
@@ -137,7 +130,14 @@
               />
               <div class="card-body">
                 <h4 class="card-title">Граф Вар Охманн Шираз</h4>
-                <a href="#" class="btn btn-danger">Подробнее</a>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal6"
+                >
+                  Подробнее
+                </button>
               </div>
             </div>
             <div class="card">
@@ -147,29 +147,42 @@
               />
               <div class="card-body">
                 <h4 class="card-title">Герцог Николя Шардоне</h4>
-                <a href="#" class="btn btn-danger">Подробнее</a>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal7"
+                >
+                  Подробнее
+                </button>
               </div>
             </div>
             <div class="card">
               <img src="assest/images/wine/ervelyus.png" class="img-fluid" />
               <div class="card-body">
                 <h4 class="card-title">Эрвелюс</h4>
-                <a
-                  href="https://vedmak.fandom.com/wiki/%D0%AD%D1%80%D0%B2%D0%B5%D0%BB%D1%8E%D1%81"
+                <button
+                  type="button"
                   class="btn btn-danger"
-                  >Подробнее</a
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal8"
                 >
+                  Подробнее
+                </button>
               </div>
             </div>
             <div class="card">
               <img src="assest/images/wine/est-est.png" class="img-fluid" />
               <div class="card-body">
                 <h4 class="card-title">Эст-Эст</h4>
-                <a
-                  href="https://vedmak.fandom.com/wiki/%D0%AD%D1%81%D1%82-%D0%AD%D1%81%D1%82"
+                <button
+                  type="button"
                   class="btn btn-danger"
-                  >Подробнее</a
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal9"
                 >
+                  Подробнее
+                </button>
               </div>
             </div>
             <div class="card">
@@ -179,7 +192,14 @@
               />
               <div class="card-body">
                 <h4 class="card-title">Геральт из Ривии</h4>
-                <a href="#" class="btn btn-danger">Подробнее</a>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal10"
+                >
+                  Подробнее
+                </button>
               </div>
             </div>
             <div class="card">
@@ -189,24 +209,484 @@
               />
               <div class="card-body">
                 <h4 class="card-title">Восхитительное вино Гильома Де Буа</h4>
-                <a href="#" class="btn btn-danger">Подробнее</a>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal11"
+                >
+                  Подробнее
+                </button>
               </div>
             </div>
             <div class="card">
-              <img
-                src="assest/images/wine/white-wolf.png"
-                class="img-fluid"
-              />
+              <img src="assest/images/wine/white-wolf.png" class="img-fluid" />
               <div class="card-body">
                 <h4 class="card-title">Белый Волк</h4>
-                <a href="#" class="btn btn-danger">Подробнее</a>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal12"
+                >
+                  Подробнее
+                </button>
               </div>
             </div>
           </div>
         </div>
 
-
-
+        <!-- Модальные окна -->
+        <div
+          class="modal fade"
+          id="wineModal1"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel1"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel1">
+                  Белое вино из Боклера
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино обладает уникальным
+                  вкусом и ароматом, идеально подходит для различных блюд.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal2"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel2"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel2">
+                  Мясник из Блавикена
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино идеально сочетается с
+                  мясными блюдами и обладает насыщенным вкусом.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal3"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel3"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel3">
+                  Пино Блан Резерв Кавлер Д'Адам
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино обладает
+                  легким и свежим вкусом, идеально подходит для летних вечеров.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal4"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel4"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel4">
+                  Каберне Шато Де Конрад
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино с глубоким вкусом и
+                  ароматом, отлично сочетается с красным мясом.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal5"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel5"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel5">
+                  Шато Мон-Вальжан
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино обладает уникальным вкусом
+                  и прекрасно подходит для особых случаев.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal6"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel6"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel6">
+                  Граф Вар Охманн Шираз
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино с насыщенным вкусом и
+                  ароматом, идеально подходит для мясных блюд.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal7"
+          tabindex="-1"
+          aria-labelledby="wine ModalLabel7"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel7">
+                  Герцог Николя Шардоне
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино обладает изысканным
+                  вкусом и прекрасно сочетается с морепродуктами.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal8"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel8"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel8">Эрвелюс</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино с ярким вкусом и ароматом,
+                  идеально подходит для вечерних встреч.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal9"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel9"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel9">Эст-Эст</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино с легким и свежим вкусом, идеально
+                  подходит для летних вечеров.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal10"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel10"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel10">
+                  Геральт из Ривии
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино с насыщенным вкусом,
+                  идеально подходит для особых случаев.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal11"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel11"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel11">
+                  Восхитительное вино Гильома Де Буа
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино с уникальным вкусом, идеально подходит для
+                  романтических ужинов.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal12"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel12"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel12">Белый Волк</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино с легким и свежим вкусом, идеально подходит для
+                  летних вечеров.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 

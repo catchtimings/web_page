@@ -73,6 +73,7 @@ main div {
 footer {
   background-color: #722f37;
   padding: 20px;
+  margin-bottom: 0px;
 }
 
 footer ul {
