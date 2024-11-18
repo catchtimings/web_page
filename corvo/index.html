@@ -1,19 +1,85 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="assest/styles/style.css">
-    </head>
-    <body>
-        <div class="container-fluid">
-            <div class="name"><b>Корво Бьянко</b></div>
-            <nav class="nav">
-                <ul>
-                    <li class="nav-item"><a href="index.html">Главная</a></li>
-                    <li><a href="#">Продукты</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </nav>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assest/styles/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">Корво Бьянко</a>
+      <nav>
+        <ul>
+          <li><a href="#winery-section">Главная</a></li>
+          <li><a href="#">Продукты</a></li>
+          <li><a href="#">О нас</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <div class="winery" id="winery-section">
+          <div class="carousel" id="winery-carousel">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#winery-carousel"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#winery-carousel"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#winery-carousel"
+                data-bs-slide-to="2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#winery-carousel"
+                data-bs-slide-to="3"
+              ></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assest/images/corvo-bianco.jpg" class="img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="assest/images/corvo-bianco-1.jpg" class="img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="assest/images/corvo-bianco-2.jpg" class="img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="assest/images/corvo-bianco-3.jpg" class="img-fluid">
+                </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#winery-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#winery-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
-    </body>
+
+
+
+
+
+
+
+      </div>
+    </main>
+  </body>
 </html>
