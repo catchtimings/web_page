@@ -68,6 +68,20 @@ main div {
   font-weight: bold;
 }
 
+.carousel-indicators {
+  z-index: 1;
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+.carousel-inner img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
 .container-products {
   border: 2px solid #ddd;
   border-radius: 20px;
@@ -122,6 +136,3 @@ footer ul li {
   font-size: 13px;
 }
 
-.carousel-indicators {
-  z-index: 1;
-}
