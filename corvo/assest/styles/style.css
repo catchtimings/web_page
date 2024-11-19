@@ -59,6 +59,7 @@ main div {
 .winery a {
   color: #722f37;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .container-products {
