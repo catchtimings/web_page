@@ -1,6 +1,7 @@
 header {
   background-color: #722f37;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding: 15px;
   height: auto;
@@ -13,7 +14,6 @@ header {
 nav ul {
   display: flex;
   list-style: none;
-  padding-right: 1px;
 }
 
 nav ul li {
