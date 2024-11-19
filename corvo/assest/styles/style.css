@@ -13,6 +13,7 @@ header {
 nav ul {
   display: flex;
   list-style: none;
+  padding-right: 1px;
 }
 
 nav ul li {
