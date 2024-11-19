@@ -54,6 +54,12 @@ main div {
   border: 2px solid #ddd;
   border-radius: 20px;
   padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.winery > div {
+  flex: 1;
 }
 
 .winery a {
