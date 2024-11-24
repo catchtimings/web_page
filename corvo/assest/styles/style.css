@@ -42,9 +42,9 @@ nav a {
   padding-top: 100px;
 } */
 
-img {
+/* img {
   width: 100%;
-}
+} */
 
 main div {
   margin: 10px 0px 10px 0px;
@@ -114,15 +114,14 @@ footer ul li {
   margin: 0 10px;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: row;
+}
 .contacts a {
   color: #ddd;
   text-decoration: none;
   font-size: 13px;
-}
-
-.contacts {
-  display: flex;
-  flex-direction: row;
 }
 
 .contacts h6 {
@@ -135,4 +134,3 @@ footer ul li {
   color: #ddd;
   font-size: 13px;
 }
-
