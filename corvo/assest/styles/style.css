@@ -31,11 +31,17 @@ nav a {
   text-decoration: none;
 }
 
-.logo {
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.logo a{
   font-weight: bold;
   text-decoration: none;
   font-size: 25px;
   color: white;
+  padding-left: 20px;
 }
 
 /* main {
@@ -100,8 +106,8 @@ main div {
 
 footer {
   background-color: #722f37;
-  padding: 20px;
-  margin-bottom: 0px;
+  padding-top: 20px;
+  height: auto;
 }
 
 footer ul {
@@ -117,6 +123,7 @@ footer ul li {
 .contacts {
   display: flex;
   flex-direction: row;
+  margin-bottom: 0px;
 }
 .contacts a {
   color: #ddd;
