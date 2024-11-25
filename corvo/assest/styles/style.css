@@ -104,7 +104,7 @@ main div {
 footer {
   background-color: #722f37;
   padding-top: 20px;
-  height: auto;
+  /* height: auto; */
 }
 
 footer ul {
@@ -117,24 +117,43 @@ footer ul li {
   margin: 0 10px;
 }
 
-.contacts {
+.footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   margin-bottom: 0px;
 }
-.contacts a {
+
+.footer h6 {
+  color: #ddd;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer p {
+  color: #ddd;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.footer p a{
   color: #ddd;
   text-decoration: none;
   font-size: 13px;
 }
 
-.contacts h6 {
-  color: #ddd;
-  font-size: 16px;
-  font-weight: bold;
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 
-.contacts p {
-  color: #ddd;
-  font-size: 13px;
+.footer-item p {
+  display: flex;
+  align-items: center;
+}
+
+.footer-item span {
+  margin-right: 4px; 
 }
