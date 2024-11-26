@@ -83,14 +83,22 @@ main div {
   padding: 20px;
 }
 
-.products {
+/* .products {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 10px;
+} */
+
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.product-item {
-  padding: 7px;
+.card {
+  width: 200px;
 }
 
 .card-title {
