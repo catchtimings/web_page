@@ -38,17 +38,6 @@ nav a {
   text-decoration: none;
 }
 
-/* .logo img {
-  width: 62px;
-  height: 70px;
-} */
-
-/* @media(max-width: 440px){
-  .logo img {
-    width: 40px;
-    height: 48px;
-  }
-} */
 
 .logo a{
   font-weight: bold;
@@ -57,10 +46,6 @@ nav a {
   color: white;
   padding-left: 20px;
 }
-
-/* main {
-  padding-top: 100px;
-} */
 
 img {
   width: 100%;
@@ -111,7 +96,6 @@ main div {
 footer {
   background-color: #722f37;
   padding-top: 20px;
-  /* height: auto; */
 }
 
 footer ul {
@@ -140,7 +124,6 @@ footer ul li {
 .footer p {
   color: #ddd;
   font-size: 13px;
-  /* font-weight: bolder; */
 }
 
 .footer p a{
