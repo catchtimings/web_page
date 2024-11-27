@@ -55,6 +55,7 @@ main div {
   margin: 10px 0px 10px 0px;
 }
 
+
 .winery {
   border: 2px solid #ddd;
   border-radius: 20px;
@@ -109,6 +110,49 @@ main div {
   margin-bottom: -8px;
 }
 
+/* .container-partners{
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.partners {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.parnetr-item {
+
+} */
+
+.container-partners {
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 2rem 0;
+}
+.partners {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Две колонки */
+  grid-template-rows: repeat(2, auto); /* Две строки */
+  gap: 1rem; /* Промежуток между элементами */
+}
+.partner-item {
+  display: flex;
+  justify-content: center; /* Центрируем изображение */
+  align-items: center; /* Центрируем изображение по вертикали */
+}
+.partner-item img {
+  max-width: 100%; /* Ограничиваем ширину изображения */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+/* Указываем, что третий элемент (Бельгаард) занимает всю высоту второй колонки */
+.partner-item:nth-child(3) {
+  grid-row: span 2; /* Занимает две строки */
+}
+
+
 footer {
   background-color: #722f37;
   padding-top: 20px;
@@ -127,7 +171,7 @@ footer ul li {
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 0px;
 }
 
