@@ -83,7 +83,25 @@
         <div class="container-products">
           <h1>Коллекция вина</h1>
           <div class="products" id="products-section">
-            <div class="card">
+            <div class="card new">
+              <h2 class="new-header">Новинка</h2>
+              <img
+                src="assest/images/wine/sansretur_shardone.png"
+                class="img-fluid"
+              />
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Сансретур Шардоне</h4>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#wineModal-new"
+                >
+                  Подробнее
+                </button>
+              </div>
+            </div>
+            <div class="card d-flex flex-column">
               <img
                 src="assest/images/wine/white-wine-from-Beauclair.png"
                 class="img-fluid"
@@ -278,6 +296,82 @@
           </div>
         </div>
 
+        <div
+          class="modal fade"
+          id="wineModal0"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel0"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel0">
+                  Сансретур Шардонне
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино обладает уникальным вкусом и ароматом, идеально
+                  подходит для различных блюд.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="wineModal-new"
+          tabindex="-1"
+          aria-labelledby="wineModalLabel-new"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="wineModalLabel-new">
+                  Сансретур Шардоне
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Это вино обладает уникальным вкусом и ароматом, идеально
+                  подходит для различных блюд.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Закрыть
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div
           class="modal fade"
           id="wineModal1"
