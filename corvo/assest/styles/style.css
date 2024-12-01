@@ -119,13 +119,15 @@ main div {
 
 @media (max-width: 768px) {
   .products {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  }
-  
-  nav ul {
-    flex-direction: column;
+    grid-template-columns: repeat(auto, 1fr);
   }
 }
+
+/* @media (max-width: 1200px) {
+  .products {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+} */
 
 .card-title {
   height: 100%;
