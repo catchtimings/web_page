@@ -55,7 +55,6 @@ main div {
   margin: 10px 0px 10px 0px;
 }
 
-
 .winery {
   border: 2px solid #ddd;
   border-radius: 20px;
@@ -84,12 +83,7 @@ main div {
   padding: 20px;
 }
 
-/* .products {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-} */
+
 
 .products {
   display: grid;
@@ -123,8 +117,6 @@ main div {
   margin-right: 3px;
   margin-bottom: 5px;
 }
-
-
 
 /* @media (max-width: 1200px) {
   .products {
