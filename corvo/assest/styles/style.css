@@ -177,3 +177,9 @@ footer ul li {
 .footer-item span {
   margin-right: 4px;
 }
+
+@media(max-width: 972px){
+  .footer {
+    flex-direction: column;
+  }
+}
